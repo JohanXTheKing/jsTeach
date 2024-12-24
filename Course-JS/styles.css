@@ -1,0 +1,31 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+html{font-size: 62.5%;}
+
+@font-face {
+    font-family: 'javascript';
+    src: url('asset/fonts/supercreamy.ttf');
+}
+body
+{
+    min-height: 100vh;
+    background-color: #FDDE55;
+}
+.p_static
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #001;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    color: #fff;
+    font-family: 'javascript', cursive;
+}
+.p_static img
+{
+    width: 2.5rem;
+    margin-left: 1.2rem;
+    position: absolute;
+}
